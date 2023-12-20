@@ -1,12 +1,137 @@
 .header {
 	display: inline-flex;
+	width: min-content;
+	border: 1px solid black;
+}
+
+.header_nav {
+	display: inline-flex;
+	margin-left: 773px;
+	gap: 48xp;
 }
 
 .header__name {
+	margin-top: 12px;
 	margin-left: 120px;
 	font-family: Comfortaa;
 	font-size: 18px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 180%;
+	width: max-content;
+}
+
+.header__About {
+	padding: 5px;
+	margin-right: 43px;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+
+	text-decoration: underline;
+	text-underline-offset: 15px;
+	text-decoration-thickness: 2px;
+}
+
+.header__projects {
+	padding: 5px;
+	margin-right: 43px;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.header__Contacts {
+	padding: 5px;
+	font-family: Raleway;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+
+.body {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.body__text {
+	display: flex;
+	width: 588px;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 32px;
+	margin-top: 105px;
+	margin-left: 120px;
+}
+
+.body__aboutme {
+	font-family: Playfair Display;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 72px;
+}
+
+.body__aboutme__text {
+	color: var(--font-medium-emphasis, #828282);
+	font-family: Nunito;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 150%;
+}
+
+button {
+	display: flex;
+	padding: 8px 24px;
+	align-items: flex-start;
+	border-radius: 8px;
+	background: var(--brand-yellow, #FDC435);
+	color: var(--font-high-emphasis, #25282B);
+	font-family: Roboto;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 150%;
+
+}
+
+.body__image {
+	position: absolute;
+	width: 524px;
+	height: 524px;
+	flex-shrink: 0;
+	border-radius: 600px;
+	background: url(https://sun9-28.userapi.com/impg/wm3Z2o3aO9iCuJf7RgRDWDZ2kZNoCC98TYOj3A/XGfNyf_nHkQ.jpg?size=1280x1280&quality=95&sign=a22a34810d225e1b748ec05f273a342a&type=album) center center no-repeat;
+	background-size: cover;
+	margin-left: 884px;
+	margin-top: -350px;
+
+}
+
+body {
+	width: max-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+footer {
+	border: 1px solid black;
+	margin-top: 224px;
+	;
+	width: max-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.footer__icons {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 32px;
 }
