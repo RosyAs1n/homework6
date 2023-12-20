@@ -1,0 +1,12 @@
+.header {
+	display: inline-flex;
+}
+
+.header__name {
+	margin-left: 120px;
+	font-family: Comfortaa;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 180%;
+}
